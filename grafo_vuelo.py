@@ -65,7 +65,7 @@ nx.draw_networkx_edges(
 )
 
 plt.title(
-    f"✈️ Red de Vuelos entre Aeropuertos Latinoamericanos\nRuta mas corta: {' → '.join(route)} ({time} h)",
+    f" Red de Vuelos entre Aeropuertos Latinoamericanos\nRuta mas corta: {' → '.join(route)} ({time} h)",
     fontsize=13,
     fontweight="bold",
     color="#1E3A8A"
